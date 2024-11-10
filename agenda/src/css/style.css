@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Google Sans";
+    src: url('./../fonts/google-sans/GoogleSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Google Sans Medium";
+    src: url('./../fonts/google-sans/GoogleSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Google Sans Bold";
+    src: url('./../fonts/google-sans/GoogleSans-Bold.ttf') format('truetype');
+}
+
+.font-google-sans {
+    font-family: Google Sans;
+}
+
+.font-google-sans-bold {
+    font-family: Google Sans Bold;
+}
+
+.font-google-sans-mid {
+    font-family: Google Sans Medium;
+}
+
+.bg-off-white{
+    background-color: #f0f0f0;
+}
+
