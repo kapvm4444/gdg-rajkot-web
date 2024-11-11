@@ -1,3 +1,11 @@
+:root {
+    --gdg-blue: #4285f4;
+    --gdg-red: #ea4335;
+    --gdg-green: #34a853;
+    --gdg-yellow: #f9ab00;
+    --gdg-off-white: #f0f0f0;
+}
+
 @font-face {
     font-family: "Google Sans";
     src: url('./../fonts/google-sans/GoogleSans-Regular.ttf') format('truetype');
@@ -26,6 +34,38 @@
 }
 
 .bg-off-white{
-    background-color: #f0f0f0;
+    background-color: var(--gdg-off-white);
+}
+
+.text-gdg-blue {
+    color: var(--gdg-blue);
+}
+
+.text-gdg-green {
+    color: var(--gdg-green);
+}
+
+.text-gdg-red {
+    color: var(--gdg-red);
+}
+
+.text-gdg-yellow {
+    color: var(--gdg-yellow);
+}
+
+.bg-gdg-blue {
+    background-color: var(--gdg-blue);
+}
+
+.bg-gdg-green {
+    background-color: var(--gdg-green);
+}
+
+.bg-gdg-red {
+    background-color: var(--gdg-red);
+}
+
+.bg-gdg-yellow {
+    background-color: var(--gdg-yellow);
 }
 
