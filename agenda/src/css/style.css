@@ -38,19 +38,19 @@
 }
 
 .text-gdg-blue {
-    color: var(--gdg-blue);
+    color: var(--gdg-blue) !important;
 }
 
 .text-gdg-green {
-    color: var(--gdg-green);
+    color: var(--gdg-green) !important;
 }
 
 .text-gdg-red {
-    color: var(--gdg-red);
+    color: var(--gdg-red) !important;
 }
 
 .text-gdg-yellow {
-    color: var(--gdg-yellow);
+    color: var(--gdg-yellow) !important;
 }
 
 .bg-gdg-blue {
